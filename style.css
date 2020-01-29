@@ -1,0 +1,452 @@
+
+body{
+	width: 100%;
+	margin: 0 auto;
+    
+}
+/*header style*/
+header-info{
+	height: 30px;
+	margin: 10px;
+}
+.header-1{
+	text-align: right;
+	float: right;
+	width: 80%;
+	padding-top:  24px;
+	width: 80%;
+
+}
+.img{
+	width: 20px;
+	height: 20px;
+	margin: 2px
+}
+.header-a{
+	margin: 10px;
+	text-decoration: none;
+}
+li{
+	display: inline;
+	margin: 10px
+}
+ul{
+	direction: rtl;
+	margin:5px
+}
+.header-nav{
+	width: 100%;
+	height: 60px;
+	background-color: #344459;
+	display: flex;
+}
+.header-logo{
+	float:left;
+	width: 10%;
+	/*width: 10%;*/
+}
+.img-logo{
+	padding-left: 20%;
+	float: left;
+	height: 100px;
+}
+nav{
+	text-align: center;
+	width: 100%;
+	padding: 15px;
+
+}
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 25px;
+	margin: 10px;
+}
+.active {
+	background-color: #a83232;
+}
+/*v a:visited{
+	color: #f9ae9d;*/
+
+
+	.form-info-input-2-input{  
+		height: 20px;
+		font-size: 15px;
+		padding: 5px;
+		border: 1px solid #D2D2D2;
+	}
+	button{
+		height: 35px;
+		font-size: 15px;
+		padding: 5px;
+		border: 1px solid #D2D2D2;
+		background-image: none;
+		background-color: #C1272D;
+		color: #ffffff;
+	}
+	.header-banner{
+	/*background-image: url(img/banner.jpg);
+	background-size: cover;*/
+	position:relative;
+}
+.banner-img{
+	position: relative;
+	width:100%
+}
+.banner-h1{
+	position: absolute;
+	color: #FAFAFA;
+	bottom: 5px;
+	z-index: 1;  
+	margin-left: 5%;
+	font-size: 42px;
+}
+/*home peage style*/
+.travel{
+	
+	text-align: center;
+	margin: 0 3%;
+	font-size: 25px
+}
+.travel-type-colum{
+	display: inline-flex;
+	padding: 0 10%
+
+}
+.travel-type{
+	width: 20%;
+	padding: 2%;
+	margin-left: 7%;
+}
+.travel-type img{
+	width: 100%;
+	height: 150px;
+
+}
+.travel-type h3{
+	color: #384D59;
+}
+.form{
+	background-color: #F2F2F2;
+	text-align: center;
+}
+.form h3{
+	font-family: sans-serif;
+	padding: 13px;
+	font-size: 30px;
+	color: #384D59;
+}
+.form h4{
+	font-size: 18px;
+}
+.form-info{
+	display: block;
+	text-align: center;
+}
+.form-info-input{
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 16px;
+}
+.form-2-form{
+	display: inline-flex;
+}
+.form-info-input-2{
+	display: inline-block;
+	margin-right: 30px
+}
+.form-info-input-button{
+	background-color: #00AB99
+}
+.header-search{
+	text-align: center;
+	padding: 8px;
+	margin: 5px 20px;
+}
+.header-search-input{
+	width: 50%;
+	height: 35px;
+	margin: 13px;
+}
+/*footer style*/
+.img-foter{
+	width: 50px;
+	height: 50px;
+	padding-top: 40px;
+}
+.foter-info{
+	height: 150px;
+	background-color:  #344459;
+	text-align: center;
+}
+/*media home*/
+
+@media only screen and (max-width: 460px){  
+	span{
+		display: none;
+	}
+	nav a{
+		margin: 0px;
+               font-size: 16px;
+               padding: 5px;
+
+	}
+	.banner-h1 {
+		font-size: 20px;
+	}
+	.travel-type-colum{
+		display: inline-block;
+	}
+	.travel-type {
+		margin-left: 0%;
+		width: 80%;
+		margin: 0%;
+	}
+	.travel{
+		font-size: 20px;
+	}
+
+	.form h3{
+		font-size: 20px;
+	}    
+	.form h4 {
+		font-size: 15px;	
+	}
+	.form-info-input {
+		display: block;
+	}
+	.form-info-input-2 {
+		margin-right: 0px;
+	}
+	.form-2-form{
+		display: block;
+	}
+	.form-info button {
+		margin-top: 10px;
+	}
+}
+
+/*tours peage style*/
+
+.colum{
+	text-align: center;
+	margin: 30px auto;
+}
+.colum-1{
+	float: left;
+	width: 20%;
+	margin: 0 2%;
+	border: 1px solid #868181;
+}
+.iframe{
+	width: 20%;
+}
+
+.colum-days{
+	display: inline-flex;
+	color: #ffffff;
+	width: 100%;
+	background-color: #344459;
+	font-size: 17px;
+	font-family: cursive;
+}
+.colum-days-1{
+	float: left;
+	margin: 0 39px;
+}
+.colum-days-2{
+	float: left;
+}
+.colum-view{
+	padding-left: 15px;
+}
+.colum-view button {
+	margin-bottom: 10px;
+}
+.tours{
+	padding: 10px;
+	margin: 20px;
+}
+.tours h2{
+	font-family: Impact;
+	font-size: 39px;
+}
+.tours p{
+	font-size: 25px;
+}
+.tours-2{
+	text-align: center;
+}
+.tours-2 h3{
+	font-size: 25px;
+	margin-right: 15%;
+}
+.form-info-input-more{
+	background-color: #ffffff;
+	color: #009688;
+	width:15%;
+	border:1px solid #868181;
+	margin-right: 15%;
+	margin: 10px;
+}
+.input-more{
+	display: block;
+	text-align: center;
+}
+@media only screen and (max-width: 460px){ 
+	.tours h2 {
+		font-family: sans-serif;
+		font-size: 28px;
+	}
+	.colum {
+		display: block;
+		margin: 30px 11%;
+	}
+	.colum-1 {
+		width: 94%;
+		margin: 7% 2%;
+		border: 1px solid #868181;
+	}
+	.form-info-input-more{
+		width: 45%;
+		margin-right: 2%;
+	}
+
+
+}
+/*about-us style*/
+.about-h1{
+	position: absolute;
+	color: #FAFAFA;
+	bottom: 5px;
+	z-index: 1;  
+	margin-left: 5%;
+	font-size: 42px;
+}
+.section-1{
+	margin: 35px;
+}
+.section-body{
+	display: inline-flex;
+}
+.q1{
+	background-color: #F2F2F2;
+	padding: 50px;
+	font-family: cursive;
+	text-align: center; 
+}
+.travel-type-column{  
+	margin-right: 15%;
+	padding-left: 0 2px%;
+	display: inline-flex;
+}
+.travel-type{
+	margin-left: 10%;
+	width: 23%;
+}
+.travel-type{
+	padding: 0px 1%;
+}
+.travel-q{
+	display: inline-flex;
+}
+.contact{
+	display: inline-flex;
+
+}
+@media only screen and (max-width: 460px){
+	.p{
+		line-height: 31px;
+	}
+	.travel-q {
+		display: block;
+	}
+	.travel-type-column {
+		display: block;
+	}
+	.travel-type {
+		width: 80%
+	}
+} 
+/*contact*/
+.contact-header{
+	margin: 2%;
+}
+hr{
+	margin: 2%;
+	background-color: #0071BC;
+	height: 2px;
+}
+.form-contact{
+	width: 60%;
+}
+.form-aside{
+	width: 40%;
+}
+.form-control{
+	display: block;
+	width: 88%;
+	height: 25px;
+	padding: 6px 12px;
+	font-size: 16px;
+	margin: 2%;
+}
+.form-img{
+	width: 80px;
+	height: 50px;
+}
+.contact{
+	margin: 0 2%;
+	width:95%;
+}
+.contact h3{
+	font-size: 25px;
+}
+.textarea{
+	display: block;
+	width: 88%;
+	height: 100px;
+	margin: 2%;
+}
+.form-asid{
+	text-align: left;
+	display: inline-block;
+	background-color: #F2F2F2;
+	padding: 40px;
+	margin-left: 5%;
+	height: max-content;
+}
+.form-asid ul{
+	display: inline-grid;
+	direction: ltr;
+	font-size: 20px;
+}
+@media only screen and (max-width: 460px){
+	.form-contact {
+		width: 80%;
+	}
+	.form-asid {
+		margin: 2%;
+		padding: 20px;
+	}
+	.contact {
+		display: block
+	}
+	.contact h3 {
+		font-size: 20px;}
+		.form-img {
+			width: 50px;
+			height: 30px;
+		}
+		.form-asid ul {
+			display: inline-grid;
+			direction: ltr;
+			font-size: 18px;
+			padding: 0px;
+		}
+
+
+
+
+	}
